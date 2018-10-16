@@ -1,4 +1,4 @@
-tensorflow implementation of neural style transfer. loosely based on https://github.com/VainF/Neural-Style-Transfer-Gatys
+Tensorflow implementation of neural style transfer. inspired by https://github.com/VainF/Neural-Style-Transfer-Gatys
 
 Neural dream: how can I get a network to reveal, through its connectivity patterns, the data that has shaped it?
 
