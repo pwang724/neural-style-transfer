@@ -11,7 +11,7 @@ Style weight = **[.2, .2, .2, .2, .2]**
 Style is defined as a correlation matrix, where the **_ij_**th value of the matrix is the correlation value between the filtered images at depth **i** and depth **j** at a particular layer.
 
 <div>
-<img src="https://raw.githubusercontent.com/pwang724/neural-style-transfer/master/example/jade_selfie.jpg" width="48">
+<img src="https://raw.githubusercontent.com/pwang724/neural-style-transfer/master/example/jade_selfie.jpg" width="200">
 </div>
 
 Neural dream: how can I get a network to reveal, through its connectivity patterns, the data that has shaped it?
