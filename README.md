@@ -1,4 +1,16 @@
-Tensorflow implementation of neural style transfer. inspired by https://github.com/VainF/Neural-Style-Transfer-Gatys
+# Neural Style Transfer
+
+Simple tensorflow implementation of NST by [Gatys and Bethge](https://arxiv.org/abs/1508.06576)
+
+Implementation of the original algorithm uses a pre-trained [VGG19 network](https://github.com/machrisaa/tensorflow-vgg). As described in paper, 
+
+Content layer = **[conv4~2~]** 
+Style layer = **[conv1~1~, conv2~1~, conv3~1~, conv4~1~, and conv5~1~]**. 
+Style weight = **[.2, .2, .2, .2, .2]**
+
+Style is defined as a correlation matrix, where the **_ij_**th value of the matrix is the correlation value between the filtered images at depth **i** and depth **j** at a particular layer.
+
+
 
 Neural dream: how can I get a network to reveal, through its connectivity patterns, the data that has shaped it?
 
