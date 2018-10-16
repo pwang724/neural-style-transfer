@@ -26,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stylize.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stylize.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/stylize.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="656">
@@ -34,6 +34,15 @@
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Desktop/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -79,12 +88,13 @@
         <option value="$PROJECT_DIR$/scripts/loss.py" />
         <option value="$PROJECT_DIR$/scripts/test.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$USER_HOME$/Desktop/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="370" />
-    <option name="y" value="21" />
+    <option name="x" value="329" />
+    <option name="y" value="26" />
     <option name="width" value="2293" />
     <option name="height" value="1400" />
   </component>
@@ -123,13 +133,13 @@
     <option name="myShowDebugConsoleByDefault" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Peter\PycharmProjects\neural-style-transfer\example" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Peter\PycharmProjects\neural-style-transfer" />
       <recent name="C:\Users\Peter\PycharmProjects\Neural-Style-Transfer-Gatys\scripts" />
       <recent name="C:\Users\Peter\PycharmProjects\Neural-Style-Transfer-Gatys" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Peter\PycharmProjects\neural-style-transfer\example" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -286,17 +296,24 @@
       <option name="project" value="LOCAL" />
       <updated>1539713858283</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="first commit">
+      <created>1539714277572</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1539714277572</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="370" y="21" width="2293" height="1400" extended-state="0" />
+    <frame x="-5" y="4" width="2293" height="1400" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12727273" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12727273" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.50022393" side_tool="true" weight="0.22979398" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="1" visible="true" weight="0.12044374" />
+      <window_info anchor="bottom" id="Version Control" order="1" visible="true" weight="0.12044374" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.3296355" />
       <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4997761" weight="0.22979398" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -362,7 +379,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$USER_HOME$/Desktop/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
@@ -557,13 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/stylize.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="656">
@@ -571,6 +581,13 @@
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
         </state>
       </provider>
     </entry>
