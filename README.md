@@ -3,8 +3,8 @@
 Simple tensorflow implementation of NST by [Gatys and Bethge](https://arxiv.org/abs/1508.06576). Synthesizes a composite image with content specified by one image and style specified by another.
 
 #### Details
-Implementation of the original algorithm uses a pre-trained [VGG19 network](https://github.com/machrisaa/tensorflow-vgg)\
-Loosely inspired by https://pytorch.org/tutorials/advanced/neural_style_tutorial.html and https://github.com/VainF/Neural-Style-Transfer-Gatys
+Implementation of the original algorithm uses a pre-trained [VGG19 network](https://github.com/machrisaa/tensorflow-vgg)\.
+Loosely inspired by [this](https://pytorch.org/tutorials/advanced/neural_style_tutorial.html) and [this](https://github.com/VainF/Neural-Style-Transfer-Gatys).
 
 Content layer = **[conv4_2]**\
 Style layer = **[conv1_1, conv2_1, conv3_1, conv4_1, and conv5_1]**\
