@@ -8,7 +8,7 @@ Content layer = **[conv4_2]**\
 Style layer = **[conv1_1, conv2_1, conv3_1, conv4_1, and conv5_1]**\
 Style weight = **[.2, .2, .2, .2, .2]**
 
-"Style" is defined as a correlation matrix, where the **_ij_**th value of the matrix is dot product between the filtered images at depth **i** and depth **j** at a particular layer. Style loss is defined as the MSE between the correlation matrices of the input and style image at a particular layer. 
+"Style" is defined as a correlation matrix, where the **_ij_** th value of the matrix is dot product between the filtered images at depth **i** and depth **j** at a particular layer. Style loss is defined as the MSE between the correlation matrices of the input and style image at a particular layer.
 
 "Content" is defined as the activations of a particular layer. Content loss is defined as the MSE between the activations of the input and content image for a particular layer. Total loss is defined as the weighted sum of style loss and content loss.
 
@@ -22,5 +22,5 @@ Style weight = **[.2, .2, .2, .2, .2]**
 ##### Command
 
 ```
-python stylize.py --content content_dir --style style_dir --model vgg19_dir --lr 1 --epoch 4000 --alpha 1 --beta 10000
+python stylize.py --content content_dir --style style_dir --model vgg19_dir --lr 1 --epoch 4000
 ```
