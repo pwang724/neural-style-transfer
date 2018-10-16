@@ -5,9 +5,7 @@ Simple tensorflow implementation of NST by [Gatys and Bethge](https://arxiv.org/
 Implementation of the original algorithm uses a pre-trained [VGG19 network](https://github.com/machrisaa/tensorflow-vgg), with
 
 Content layer = **[conv4_2]**\
-
 Style layer = **[conv1_1, conv2_1, conv3_1, conv4_1, and conv5_1]**\
-
 Style weight = **[.2, .2, .2, .2, .2]**
 
 "Style" is defined as a correlation matrix, where the **_ij_**th value of the matrix is dot product between the filtered images at depth **i** and depth **j** at a particular layer. Style loss is defined as the MSE between the correlation matrices of the input and style image at a particular layer. 
