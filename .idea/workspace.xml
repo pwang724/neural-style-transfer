@@ -3,19 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7acfcaf6-ecf9-4f24-904b-4e7108f4e921" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contents/IMG_6894.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contents/IMG_7513.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contents/bill.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contents/david.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contents/david2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contents/david3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contents/group.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contents/jade_dog.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contents/jade_selfie.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contents/jay.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/NST.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/stylize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,7 +17,7 @@
       <file leaf-file-name="model.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
+            <state>
               <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -38,23 +26,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stylize.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="stylize.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/stylize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+            <state relative-caret-position="656">
+              <caret line="41" column="74" lean-forward="true" selection-start-line="41" selection-start-column="74" selection-end-line="41" selection-end-column="74" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -104,6 +83,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="370" />
+    <option name="y" value="21" />
     <option name="width" value="2293" />
     <option name="height" value="1400" />
   </component>
@@ -121,11 +102,6 @@
             <path>
               <item name="neural-style-transfer" type="b2602c69:ProjectViewProjectNode" />
               <item name="neural-style-transfer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="neural-style-transfer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="neural-style-transfer" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="neural-style-transfer" type="b2602c69:ProjectViewProjectNode" />
@@ -289,30 +265,51 @@
       <option name="project" value="LOCAL" />
       <updated>1539713458185</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="first commit">
+      <created>1539713775165</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1539713775165</updated>
+    </task>
+    <task id="LOCAL-00008" summary="first commit">
+      <created>1539713806207</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1539713806207</updated>
+    </task>
+    <task id="LOCAL-00009" summary="first commit">
+      <created>1539713858283</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1539713858283</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2293" height="1400" extended-state="0" />
+    <frame x="370" y="21" width="2293" height="1400" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.127631" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12727273" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.50022393" side_tool="true" weight="0.22979398" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.13549921" />
-      <window_info anchor="bottom" id="Version Control" order="1" weight="0.12044374" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="1" visible="true" weight="0.12044374" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.3296355" />
       <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4997761" weight="0.22979398" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.3296355" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Debug" order="3" visible="true" weight="0.29153606" />
+      <window_info anchor="right" id="Debug" order="3" weight="0.29153606" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.13549921" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -335,16 +332,44 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/NST.py">
+    <entry file="file://$PROJECT_DIR$/scripts/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="896">
-          <caret line="65" column="45" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
+        <state relative-caret-position="576">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/stylize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/NST.py" />
     <entry file="file://$PROJECT_DIR$/scripts/model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -375,16 +400,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/NST.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="896">
-          <caret line="65" column="45" lean-forward="true" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/NST.py" />
     <entry file="file://$PROJECT_DIR$/scripts/model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -416,16 +432,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/transfer_gatys_tf.py" />
-    <entry file="file://$PROJECT_DIR$/scripts/NST.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="111" selection-start-line="111" selection-end-line="126" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/NST.py" />
     <entry file="file://$PROJECT_DIR$/scripts/model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -539,48 +546,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/jade_watercolor.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contents/jade_selfie.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contents/IMG_1277.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contents/IMG_6894.JPG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contents/IMG_7513.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/vivid.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/NST.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1040">
-          <caret line="65" column="45" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/NST.py" />
     <entry file="file://$PROJECT_DIR$/scripts/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
+        <state>
           <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/stylize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
@@ -589,8 +559,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        <state relative-caret-position="400">
+          <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/stylize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="41" column="74" lean-forward="true" selection-start-line="41" selection-start-column="74" selection-end-line="41" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
