@@ -1,20 +1,26 @@
 # Neural Style Transfer
 
-Simple tensorflow implementation of NST by [Gatys and Bethge](https://arxiv.org/abs/1508.06576)
+Simple tensorflow implementation of NST by [Gatys and Bethge](https://arxiv.org/abs/1508.06576). Synthesizes a composite image with content specified by one image and style specified by another.
 
-Implementation of the original algorithm uses a pre-trained [VGG19 network](https://github.com/machrisaa/tensorflow-vgg). As described in paper, 
-
-Content layer = **[conv4~2~]** 
-Style layer = **[conv1~1~, conv2~1~, conv3~1~, conv4~1~, and conv5~1~]**. 
+Implementation of the original algorithm uses a pre-trained [VGG19 network](https://github.com/machrisaa/tensorflow-vgg), with 
+Content layer = **[conv4_2]** 
+Style layer = **[conv1_1, conv2_1, conv3_1, conv4_1, and conv5_1]**. 
 Style weight = **[.2, .2, .2, .2, .2]**
 
-Style is defined as a correlation matrix, where the **_ij_**th value of the matrix is the correlation value between the filtered images at depth **i** and depth **j** at a particular layer.
+"Style" is defined as a correlation matrix, where the **_ij_** th value of the matrix is dot product between the filtered images at depth **i** and depth **j** at a particular layer. Style loss is defined as the MSE between the correlation matrices of the input image and style image for a particular layer. This loss is summed and weighted for multiple layers as specified above. "Content" is defined as the activations of a particular layer. Content loss is defined as the MSE between the activations of the input image and the content image for a particular layer. Total loss is defined as the weighted sum of style loss and content loss.
 
+##### Example
 <div>
 <img src="https://raw.githubusercontent.com/pwang724/neural-style-transfer/master/example/jade_selfie.jpg" width="200">
+<img src="https://raw.githubusercontent.com/pwang724/neural-style-transfer/master/example/jade.jpg" width="200">
+<img src="https://raw.githubusercontent.com/pwang724/neural-style-transfer/master/example/out_3000.jpg" width="200">
 </div>
 
-Neural dream: how can I get a network to reveal, through its connectivity patterns, the data that has shaped it?
+##### Command
+
+```
+python test.py --content content_dir --style style_dir --model vgg19_dir --lr 1 --epoch 4000 --alpha 1 --beta 10000
+```
 
 1. 
 GOAL: have input and target image. want to reveal the distance between target and input images based on the objects that it has seen. i.e. define 'image' distance not to be euclidian but based on prior basis functions.
