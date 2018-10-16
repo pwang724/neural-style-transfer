@@ -6,7 +6,7 @@ VGG_MEAN = [103.939, 116.779, 123.68]
 def build_part_vgg19(img_input, model_dir='vgg19.npy'):
     '''
     input tensor: input image with shape of [batch, height, width, colors=3]
-    params_dir: Directory of npz file
+    params_dir: Directory of vgg19 model
     '''
 
     def conv(x, name):

@@ -1,6 +1,7 @@
 import tensorflow as tf
 import numpy as np
 from PIL import Image
+import os
 
 def gram_matrix(maps):
     if isinstance(maps, tf.Tensor):
@@ -25,3 +26,17 @@ def down_sample(content, style, max_pixel):
     content_img = Image.open(content).resize((width, height), resample=Image.LANCZOS)
     style_img = Image.open(style).resize((width, height), resample=Image.LANCZOS)
     return content_img, style_img, height, width
+
+
+def make_output_folder(content_dir, style_dir, output_name):
+    # get output path directory from content directory, style directory, and output folder prefix
+
+    content_dir = os.path.basename(content_dir)
+    content_dir, _ = os.path.splitext(content_dir)
+    style_dir = os.path.basename(style_dir)
+    style_dir, _ = os.path.splitext(style_dir)
+    folder_name = "%s_%s" % (style_dir, content_dir)
+    full_name = os.path.join(output_name, folder_name)
+    if not os.path.exists(full_name):
+        os.makedirs(full_name)
+    return full_name
