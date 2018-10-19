@@ -11,16 +11,16 @@ import loss
 
 def arg_parser():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--content', type=str, default='../contents/jade_selfie.jpg', help='content path')
-    parser.add_argument('--style', type=str, default='../styles/jade.jpg', help='style path')
+    parser.add_argument('--content', type=str, default='../contents/peter.jpg', help='content path')
+    parser.add_argument('--style', type=str, default='../styles/mnist.png', help='style path')
     parser.add_argument('--model', type=str, default="C:/Users/Peter/Desktop/models/vgg19.npy", help='vgg19 path')
     parser.add_argument('--output_folder', type=str, default='../out', help='output folder prefix name')
     parser.add_argument('--init_image', type=str, default='content', help='init image: style, content, noise, zeros')
-    parser.add_argument('--max_pixel', type=int, default= 800, help='max pixels in any dim')
+    parser.add_argument('--max_pixel', type=int, default= 400, help='max pixels in any dim')
     parser.add_argument('--lr', type=float, default=1, help='learning rate')
     parser.add_argument('--epoch', type=int, default=3000, help='epoch')
     parser.add_argument('--alpha', type=float, default=1, help='content weight')
-    parser.add_argument('--beta', type=float, default=10000, help='style weight')
+    parser.add_argument('--beta', type=float, default=1000000, help='style weight')
     return parser
 
 if __name__=='__main__':
