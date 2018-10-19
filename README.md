@@ -24,5 +24,5 @@ Style weight = **[.2, .2, .2, .2, .2]**
 ##### Command
 
 ```
-python test.py --content content_dir --style style_dir --model vgg19_dir --lr 1 --epoch 4000
+python stylize.py --content content_dir --style style_dir --model vgg19_dir --lr 1 --epoch 4000
 ```
